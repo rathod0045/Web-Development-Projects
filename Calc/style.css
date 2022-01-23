@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* main Calc body */
+
+.main {
+    border: #4c4c4c 1px solid;
+    background-color: #000;
+    border-radius: 16px;
+    height: 75vh;
+    width: 350px;
+    padding: 18px;
+    color: #fff;
+}
+
+/* Calc screen */
+
+.screen {
+    height: 22%;
+    padding: 6px;
+    margin-bottom: 6px;
+}
+
+.history {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 35%;
+    font-size: 18px;
+}
+
+.current {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 60px;
+    height: 65%;
+}
+
+
+/* Grid-Block-1 */
+
+.grid-block-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.delete, .backspace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f69a06;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.delete:hover, .backspace:hover {
+    background-color: #ffb006;
+}
+
+.delete {
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+.backspace {
+    margin-left: 8px;
+}
+
+.backspace img{
+    height: 24px;
+}
+
+/* Grid-Block-2 */
+
+.grid-block-2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 65%;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.btn {
+    border-radius: 30%;
+    background-color: #313131;
+    border-width: 0;
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn:hover {
+    background-color: #4c4c4c;
+}
+
+
+.btn:nth-of-type(4n) {
+    background-color: #f69a06;
+}
+
+.btn:nth-of-type(4n):hover {
+    background-color: #ffb006;
+}
+
+
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 16px;
+    color: #ccc;
+    font-size: 16px;
+}

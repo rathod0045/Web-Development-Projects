@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #222831;
+}
+
+img {
+    height: 128px;
+}
+
+/* header part */
+
+header { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111720;
+    padding: 20px 0px;
+}
+
+header div {
+    color: #fac650;
+    font-family: 'Skranji', cursive;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.game {
+    display: none;
+    margin-left: 40px;
+    font-family: 'Skranji', cursive;
+    border-width: 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #393e46;
+    color: #fac650;
+}
+
+.game:hover {
+    background-color: #5b5f68;
+    border: #f4f4f4 2px solid;
+}
+
+/* main part */
+
+div.main {
+    text-align: center;
+    background-color: #222831;
+    color: #ECEFF4;
+    padding: 48px 0;
+}
+
+.main h1 {
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.main p {
+    font-size: 16px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 38px;
+    margin-bottom: 64px;
+}
+
+.weapons {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin: 10px 0;
+}
+
+.btn {
+    border-width: 0;
+    background-color: #393e46;
+    border-radius: 5px;
+}
+
+button img {
+    padding: 10px;
+}
+
+.btn img:hover {
+    background-color: #5b5f68;
+    border: #f4f4f4 5px solid;
+    border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #222831;
+    color: #ECEFF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+footer img {
+    margin: 8px;
+    height: 32px;
+}

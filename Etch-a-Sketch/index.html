@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Images/paintbrush.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Tourney:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch </h1>
+    </header>
+
+    <section class="main">
+        <div class="boxes">
+        
+        </div>
+        <div class="left-part">
+            <input type="color" id="color-picker">
+            <button class="random btn">Random color</button>
+            <button class="erase btn">Eraser</button>
+            <button class="clear btn">Clear Board</button>
+            <div class="controller">
+                <label for="size">Size: 16x16</label>
+                <input type="range" name="size" id="range" min="16" max="64" value="16">
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        Copyrights &copy; 2022 rathod0045
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
