@@ -1,2 +1,2 @@
 # Web-Development-Projects
-[Calculator Project](./Calc/index.html)
+[To see Web Development Projects Online](https://rathod0045.github.io/Web-Development-Projects/)
