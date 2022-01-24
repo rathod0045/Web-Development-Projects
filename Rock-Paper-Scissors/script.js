@@ -68,6 +68,8 @@ gameOver.addEventListener('click',playAgain);
 function playAgain() {
     title.textContent="Choose your weapon";
     subtitle.style.display='block';
+    playerPointDom.textContent="Player: "+playerPoint;
+    computerPointDom.textContent="Computer: "+computerPoint;
     img[1].attributes.src.nodeValue=img[0].attributes.src.nodeValue='./Images/question.png';
 }
 
