@@ -43,6 +43,14 @@ header {
     font-weight: 600;
 }
 
+.list a{
+    text-decoration: none;
+    color: #BBE1FA;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 .box {
     width: 65px;
     height: 100%;
@@ -53,11 +61,9 @@ header {
     margin-right: 10px;
 }
 
-.list a{
-    text-decoration: none;
-    color: #BBE1FA;
+.subtitle {
     display: flex;
     align-items: center;
-    height: 100%;
 }
+
 
