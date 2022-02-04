@@ -14,7 +14,7 @@ let eventListen = false;
 // Event listner 
 function start() {
 
-    let newSize = 16;
+    let newSize = 4;
     
     // Color Changing
     colorPicker.addEventListener('change', e => {
@@ -47,6 +47,15 @@ function start() {
         makeGrid(newSize);
     });
     makeGrid(newSize);
+
+    // clear Board
+    clearBoard.addEventListener('click',function(){
+        let size = newSize*newSize;
+        while(size--) {
+            const box = document.querySelector(`.box-${size}`);
+            box.style.backgroundColor = '#fff';
+        }
+    });
 }
 
 start();
@@ -94,6 +103,7 @@ function doThething() {
 
 // making boxes
 function makeGrid(newSize) {
+    label.textContent = `Size: ${newSize}x${newSize}`
     boxes.innerHTML = '';
     boxes.style.gridTemplateColumns = `repeat(${newSize},1fr)`;
     boxes.style.gridTemplateRows = `repeat(${newSize},1fr)`;

@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECEFF4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+i {
+    padding: 0.5rem;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: #434C5E;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+/* header */
+header {
+    height: 5vh;
+    font-size: 1.6rem;
+    background-color: #3B4252;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+/* main */ 
+.main {
+    display: flex;
+}
+
+
+
+/* left part */
+.left-side {
+    background-color: #D8DEE9;
+    height: 91vh;
+    min-width: 280px;
+    font-size: 1rem;
+}
+
+.default-list {
+    margin: 1.2rem;
+    cursor: pointer;
+}
+
+.user-list {
+    margin: 0.6rem 1.2rem;
+    cursor: pointer;
+}
+
+.default-list li, .user-list li {
+    padding: 0.2rem;
+}
+
+.user-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user-list li i.fas {
+    position: absolute;
+    right: 5px;
+}
+
+#projects {
+    text-align: center;
+}
+
+.project-input {
+    background-color: #434C5E;
+    padding: 0.5rem;
+    margin: 1.2rem;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 0.4rem;
+    border-radius: 4px;
+    display: none;
+}
+
+.input-name {
+    display: block;
+    padding: 0.2rem;
+    width: 100%;
+    grid-area: 1/2 span;
+    font-size: 1rem;
+    border-width: 0;
+    border-radius: 4px;
+    height: 1.7rem;
+}
+
+.submit, .delete {
+    font-size: 1rem;
+    background-color: #ECEFF4;
+    border-width: 0;
+    height: 1.8rem;
+    border-radius: 4px;
+}
+
+.submit:hover , .delete:hover {
+    cursor: pointer;
+    background-color: #D8DEE9;
+}
+
+.add-project {
+    margin: 0 1.2rem;
+    background-color: #ECEFF4;
+    border: #5b677d 2px solid;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 87%;
+}
+
+.add-project:hover {
+    background-color: #434C5E;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* right side */ 
+.right-side {
+    width: 900px;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: #434C5E 2px solid;
+}
+
+.add-item {
+    width: 100%;
+    border: #434C5E 1px solid;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ECEFF4;
+    margin: 1.2rem 0;
+}
+
+.add-item:hover {
+    background-color: #434C5E;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.list-item {
+    margin-top: 1.2rem;
+}
+
+.item {
+    width: 100%;
+    border: #434C5E 1px solid;
+    border-radius: 5px;
+    padding: 0.6rem;
+    margin: 0.4rem;
+    cursor: pointer;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+#item-text, #item-time, #done {
+    background-color: #fff;
+    height: 2rem;
+    border: #5b677d 1px solid;
+    border-radius: 4px;
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+
+#done {
+    padding: 0 0.8rem;   
+}
+
+#done:hover {
+    background-color: #434C5E;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+i.far {
+    font-size: 1.3rem;
+    padding-right: 0.8rem;
+}
+
+.item-left, .item-right {
+    display: flex;
+    align-items: center;
+}
+
+/* footer */
+footer {
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B4252;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 600;
+}
