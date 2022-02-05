@@ -151,7 +151,7 @@ header {
     border-radius: 5px;
     font-size: 1rem;
     background-color: #ECEFF4;
-    margin: 1.2rem 0.4rem;
+    margin: 0.3rem 0;
     padding: 0.3rem;
 }
 
@@ -169,8 +169,8 @@ header {
     width: 100%;
     border: #434C5E 1px solid;
     border-radius: 5px;
-    padding: 0.6rem;
-    margin: 0.4rem;
+    padding: 0.4rem;
+    margin: 0.4rem 0;
     cursor: pointer;
     box-shadow: 0 1px 4px rgb(0 0 0 / 0.2);
 }
