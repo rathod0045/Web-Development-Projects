@@ -151,7 +151,8 @@ header {
     border-radius: 5px;
     font-size: 1rem;
     background-color: #ECEFF4;
-    margin: 1.2rem 0;
+    margin: 1.2rem 0.4rem;
+    padding: 0.3rem;
 }
 
 .add-item:hover {
@@ -171,6 +172,7 @@ header {
     padding: 0.6rem;
     margin: 0.4rem;
     cursor: pointer;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 0.2);
 }
 
 .display {
